@@ -27,29 +27,25 @@ driver = webdriver.Chrome(
 # LISTA DE PAÍSES
 # ==============================
 COUNTRIES = [
-    "Albania","Algeria","Andorra","Angola","Argentina","Armenia","Aruba","Australia",
-    "Austria","Azerbaijan","Bahamas","Bahrain","Bangladesh","Barbados","Belgium",
-    "Benin","Bermuda","Bhutan","Bolivia","Botswana","Brazil","Brunei","Bulgaria",
-    "Burkina Faso","Cambodia","Canada","Cape Verde","Cayman Islands","Chile","China",
-    "Colombia","Costa Rica","Croatia","Cyprus","Czech Republic","Denmark","Dominica",
-    "Dominican Republic","Ecuador","Egypt","El Salvador","Estonia","Ethiopia","Fiji",
-    "Finland","France","French Polynesia","Gabon","Gambia","Georgia","Germany","Ghana",
-    "Greece","Grenada","Guatemala","Guinea","Guinea Bissau","Guyana","Haiti","Honduras",
-    "Hong Kong","Hungary","Iceland","India","Indonesia","Ireland","Israel","Italy",
-    "Jamaica","Japan","Kazakhstan","Kenya","Kosovo","Kuwait","Kyrgyzstan","Laos",
-    "Latvia","Lebanon","Lesotho","Liberia","Liechtenstein","Lithuania","Luxembourg",
-    "Macao","Macedonia","Malawi","Malaysia","Maldives","Mali","Malta","Mauritania",
-    "Mauritius","Mexico","Moldova","Monaco","Mongolia","Montenegro","Morocco",
-    "Mozambique","Namibia","Nepal","Netherlands","New Zealand","Nicaragua","Niger",
-    "Nigeria","Norway","Oman","Pakistan","Palau","Panama","Papua New Guinea",
-    "Paraguay","Peru","Philippines","Poland","Portugal","Qatar","Romania","Russia",
-    "Rwanda","Saint Lucia","Samoa","San Marino","Saudi Arabia","Senegal","Serbia",
-    "Seychelles","Sierra Leone","Singapore","Slovakia","Slovenia","South Africa",
-    "South Korea","Spain","Sri Lanka","Suriname","Sweden","Switzerland","Taiwan",
-    "Tajikistan","Tanzania","Thailand","Tonga","Tunisia","Turkey","Tuvalu","Uganda",
-    "Ukraine","United Arab Emirates","United Kingdom","United States","Uruguay",
-    "Uzbekistan","Vanuatu","Vatican City","Vietnam","Zambia"
-]
+    "Albania", "Argelia", "Andorra", "Angola", "Argentina", "Armenia", "Aruba", "Australia", "Austria", 
+    "Azerbaiyán", "Bahamas", "Bahrain", "Bangladés", "Barbados", "Bélgica", "Benin", "islas Bermudas", 
+    "Bután", "Bolivia", "Botswana", "Brasil","Brunei", "Bulgaria", "Burkina Faso", "Camboya", "Canadá", 
+    "Cabo Verde", "Islas Caimán", "Chile", "China", "Colombia", "Costa Rica", "Croacia", "Chipre", 
+    "República Checa", "Dinamarca", "Dominio", "República Dominicana", "Ecuador", "Egipto", "El Salvador", 
+    "Estonia", "Etiopía", "Fiji", "Finlandia", "Francia", "Polinesia francés", "Gabón", "Gambia", "Georgia", 
+    "Alemania", "Ghana", "Grecia", "Granada", "Guatemala", "Guinea", "Guinea Bissau", "Guayana", "Haití", 
+    "Honduras", "Hong Kong", "Hungría", "Islandia", "India", "Indonesia", "Irlanda", "Israel", "Italia", 
+    "Jamaica", "Japón", "Kazajstán", "Kenia", "Kosovo", "Kuwait", "Kirguistán", "Laos", "Letonia", "Líbano", 
+    "Lesoto", "Liberia", "Liechtenstein", "Lituania", "Luxemburgo", "Macaomacedonia", "Malawi", "Malasia", 
+    "Maldivas", "Mali", "Malta", "Mauritania", "Mauricio", "México", "Moldava", "Mónaco", "Mongolia", "Montenegro", 
+    "Marruecos", "Mozambique", "Namibia", "Nepal", "Países Bajos", "Nueva Zelanda", "Nicaragua", "Níger", 
+    "Nigeria", "Noruega", "Omán", "Pakistán", "Palau", "Panamá", "Papúa Nueva Guinea", "Paraguay" "Perú",
+    "Filipinas", "Polonia", "Portugal", "Katar", "Rumanía", "Rusia", "Ruanda", "Santa Lucía", "Samoa", "San Marino", 
+    "Arabia Saudita", "Senegal", "Serbia", "Seychelles", "Sierra Leona", "Singapur", "Eslovaquia", "Eslovenia", 
+    "Sudáfrica", "Corea del Sur", "España", "Sri Lanka", "Surinam", "Suecia", "Suiza", "Taiwán", "Tayikistán", 
+    "Tanzania", "Tailandia", "Tonga", "Túnez", "Turquía", "Tuvalu", "Uganda", "Ucrania", "Emiratos Árabes Unidos", 
+    "Reino Unido", "Estados Unidos", "Uruguay", "Uzbekistán", "Vanuatu", "Ciudad del Vaticano", "Vietnam", "Zambia"
+ ]
 
 # ==============================
 # SCRAPER POR PAÍS
